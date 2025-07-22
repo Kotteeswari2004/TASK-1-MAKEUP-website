@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Beauty spot</title>
+    <style>
+        *{
+            margin:0px;
+            padding:0px;
+        }
+        header{
+            height:350px;
+            width:100%;
+            background-color:aqua;
+        }
+        .row1{
+            height:300px;
+            width:100%;
+            background-color:blueviolet;
+        }
+        .col1{
+            height:300px;
+            width:300px;
+            float:left;
+            background-color:palevioletred;
+            border-radius: 200px;
+        }
+        .col2{
+            height:300px;
+            width:calc(100% - 300px);
+            background-color:black;
+            float:left;
+        }
+        .col2 h1{
+            color:palevioletred;
+            text-transform: uppercase;
+            text-align: center;
+            top:40%;
+            position: relative;
+            font-size: 40px;
+        }
+        .col2 p{
+            color:beige;
+            text-align: center;
+            font-size: 25px;
+            top:41%;
+            position: relative;
+        }
+        .row2{
+            height:50px;
+            width:100%;
+            background-color:darksalmon;
+        }
+        ul li{
+            display: inline;
+            padding:40px;
+            top:6px;
+            position: relative;
+        }  
+        ul li a{
+            text-decoration: none;
+            color:black;
+            text-transform: capitalize;
+            font-size: 25px;
+        }
+        ul li a:hover{
+            border-style: solid;
+            background-color:white;
+            border-radius: 20px;
+            padding: 10px;
+        }
+    </style>        
+</head>
+<body>
+   <header>
+        <div class="row1">
+            <div class="col1">
+                <img src="logo.jpeg" height="300px" width="300px"/>
+            </div>
+            <div class="col2">
+                <h1>THE GLAM TOUCH BEAUTY SPOT</h1>
+                <p>Womens and Kids only!</p>
+            </div>
+        </div>
+        <div class="row2">
+            <ul>
+            <li><a href="About.php">About</a></li>
+            <li><a href="Service.php">Services</a></li>
+            <li><a href="Booking.php">Booking</a></li>
+            <li><a href="Contact.php">Contact</a></li>
+            <li><a href="Jewels.php">Jewels</a></li>          
+            </ul>
+        </div>
+    </header> 
+</body>
+</html>
